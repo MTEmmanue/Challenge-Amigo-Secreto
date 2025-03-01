@@ -77,6 +77,9 @@ function sortearAmigo() {
      }
       //Eliminar todos los amigos de la lista después de mostrar el resultado
     amigos = [];
-
+    // Actualizar la lista de amigos después de eliminar al amigo seleccionado
+    actualizarListaAmigos();
 }
+
+
 
