@@ -73,6 +73,7 @@ function sortearAmigo() {
          // Restablecer la lista de amigos (aquí debes definir cómo restablecer la lista original de amigos)
          // Por ejemplo:
          // amigos = ['Amigo1', 'Amigo2', 'Amigo3', ...];
+         resultado.textContent = ''; // Limpiar el texto del resultado
      }
       //Eliminar todos los amigos de la lista después de mostrar el resultado
     amigos = [];
